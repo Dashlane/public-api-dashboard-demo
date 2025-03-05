@@ -10,12 +10,12 @@ to your Dashlane team account, its members and their devices.
 We’ve built a simple React application that creates a configurable security dashboard. This dashboard can be expanded to include other metrics, creating a custom dashboard so you can monitor in real time and quickly respond to credential-based risks.
 
 1. **Clone the repository**  
-   Clone [this repository](link_to_self) and download it on to your machine.
+   Clone [this repository](https://github.com/Dashlane/public-api-dashboard-demo) and download it on to your machine.
 
 2. **Generate an API Key**  
    To communicate with our API, you’ll need an access key. Navigate to the Dashlane Admin Console > Integrations > Public API. Select “Create Key.” Give the key a description. Make sure you copy and save the bearer token in a secure place. You will not be able to access it again.
 
-3. **Instal the dependencies**  
+3. **Install the dependencies**  
    Go to the cloned repository and modify the Environment variables (.env file) to add your auth token.
 
     ```bash
