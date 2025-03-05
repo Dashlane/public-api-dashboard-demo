@@ -16,13 +16,13 @@ We’ve built a simple React application that creates a configurable security da
    To communicate with our API, you’ll need an access key. Navigate to the Dashlane Admin Console > Integrations > Public API. Select “Create Key.” Give the key a description. Make sure you copy and save the bearer token in a secure place. You will not be able to access it again.
 
 3. **Install the dependencies**  
-   Go to the cloned repository and modify the Environment variables (.env file) to add your auth token.
+   Go to your preferred console and run:
 
     ```bash
     npm install
     ```
 4. **Run the dashboard**  
-   To run this dashboard, just go to your preferred console, navigate to the project folder, and run:
+   From your console, navigate to the project folder, and run:
 
     ```bash
     REACT_APP_DASHLANE_API_KEY="<DASHLANE BEARER TOKEN>" npm start
